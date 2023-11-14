@@ -11,7 +11,7 @@ export default function HomeScreen() {
                 <h1 className='font-bold text-4xl text-black shadow-sm'>Get Started </h1>
             </div>
 
-            <div className='container m-auto grid grid-cols-3 gap-4 w-screen'>
+            <div className='sm:grid-cols-1 mt-20 container m-auto grid md:grid-cols-3 gap-4 w-screen'>
                 <Kutu title={1}></Kutu>
                 <Kutu title={2}></Kutu>
                 <Kutu title={3}></Kutu>
